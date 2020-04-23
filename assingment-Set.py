@@ -85,4 +85,10 @@ class Set:
 x=Set([1,2])
 y=Set([1,2,3,4,5,6])
 
-print(y.remove(x))
+print(x.issubset(y))
+print(x.issuperset(y))
+print(x.intersection_update(y))
+print(x.difference_update(y))
+print(x.symmetric_difference_update(y))
+print(x.add(y))
+print(x.remove(y))
